@@ -1,0 +1,14 @@
+=== DIAGNOSTIC COMPLET DES RÉSIDUS ARIMA ===
+
+1. Test de Ljung-Box (H0: Résidus indépendants / Bruit blanc) :
+      lb_stat  lb_pvalue
+10   4.584771   0.917137
+20  18.085688   0.581763
+
+2. Test de Jarque-Bera Brut (avec artefact t=0)    : Stat = 32835872.29, Kurtosis = 763.6
+   Test de Jarque-Bera Épuré (vrais résidus t>=1) : Stat = 2967.01, p-val = 0.0000e+00, Skewness = -0.872, Kurtosis = 10.03
+   -> Rejet sain de la normalité dû aux queues épaisses financières (Kurtosis = 10.03 > 3).
+
+3. Test ARCH-LM d'hétéroscédasticité conditionnelle :
+   Statistique = 214.27, p-value = 1.6933e-40
+   Décision   : PRÉSENCE D'EFFETS ARCH MASSIVE -> GARCH(1,1) OBLIGATOIRE !

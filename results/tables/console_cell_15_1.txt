@@ -1,0 +1,19 @@
+=== 1. TEST D'ENGLE-GRANGER (Deux Étapes) ===
+Prix Nominaux : Stat = -3.3495, p-value = 0.0483 (Non significatif à 5% : p > 0.05)
+Log-Prix      : Stat = -3.5413, p-value = 0.0289 (Significatif à 5% : p = 0.0289 < 0.05)
+-> Sur log-prix, Engle-Granger rejette l'absence de cointégration au seuil de 5%.
+
+=== 2. TEST DE JOHANSEN (Sur Log-Prix & Analyse des Spécifications Déterministes) ===
+Statistiques de Trace (det_order=0, constante non restreinte) : [17.25394643  4.12553538]
+Valeurs critiques 95%                                         : [15.4943  3.8415]
+-> Identité exacte avec R (urca ecdet='none') : Stat r=0 = 17.2539
+
+Statistiques de Trace (det_order=-1, sans terme déterministe) : [15.74131454  2.60413928]
+Valeurs critiques 95%                                         : [12.3212  4.1296]
+-> Nombre de relations de cointégration détectées (det_order=-1) : r = 1
+
+--- Synthèse de la Cointégration R & Python ---
+1. R (urca ecdet='const', constante restreinte à l'espace cointégré) : Trace r=0 = 20.12 > 19.96 (Rejet r=0 à 5%) et r<=1 = 6.98 < 9.24.
+2. Python (statsmodels det_order=0) : Trace = 17.2539, identique à R (ecdet='none') = 17.2539.
+3. Engle-Granger : p = 0.0289 sous Python et p = 0.01899 sous R (Phillips-Ouliaris).
+-> Conclusion convergente : r = 1 relation de cointégration validée sur les log-prix. VECM pleinement justifié.

@@ -1,0 +1,5 @@
+"Test","Statistique","P_value","Conclusion"
+"Ljung-Box residus ARIMA (lag 20)",18.085688,0.581763,"Pas de rejet de l'independance"
+"Jarque-Bera residus ARIMA",2967.01,0,"Non-normalite des residus"
+"ARCH-LM avant GARCH",214.27,1.6933e-40,"Effets ARCH detectes"
+"ARCH-LM apres GARCH",2.51,0.9907,"Pas d'effet ARCH residuel detecte"

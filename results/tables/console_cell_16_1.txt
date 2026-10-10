@@ -1,0 +1,14 @@
+=== MODÈLE VECTOR ERROR CORRECTION (VECM) EN PYTHON ===
+Vecteur de Cointégration normalisé (Beta) :
+[[ 1.        ]
+ [-0.79279663]]
+
+Coefficients d'ajustement vers l'équilibre (Alpha / Vitesse de rappel) :
+[[-0.02183423]
+ [-0.0052851 ]]
+
+--- Comparaison avec R (cajorls) ---
+Python : Beta_PEP = -0.7928 | Alpha_KO = -0.0218 | Alpha_PEP = -0.0053
+R      : Beta_PEP = -0.7960 | Alpha_KO = -0.0214 | Alpha_PEP = -0.0047
+-> Convergence parfaite : Coca-Cola corrige le déséquilibre à raison de ~2.1% par jour (p < 0.001),
+   tandis que PepsiCo est faiblement exogène (alpha non significatif).

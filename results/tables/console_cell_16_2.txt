@@ -1,0 +1,2 @@
+C:\Users\ASUS\AppData\Local\R\cache\R\reticulate\uv\cache\archive-v0\42iziNkd1HN0xeU8\Lib\site-packages\statsmodels\tsa\base\tsa_model.py:480: ValueWarning: A date index has been provided, but it has no associated frequency information and so will be ignored when e.g., forecasting.
+  self._init_dates(dates, freq)

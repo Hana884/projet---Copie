@@ -1,0 +1,6 @@
+Dataset réel chargé : 1508 observations, 18 variables.
+Période couverte : du 2019-01-03 au 2024-12-30
+--- Découpage Temporel Conforme ---
+Train set (90%) : 1357 observations | Du 2019-01-03 au 2024-05-23
+Test set  (10%) : 151 observations | Du 2024-05-24 au 2024-12-30
+Vérification réussie : Zéro fuite d'information future vers le passé.

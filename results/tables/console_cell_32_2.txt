@@ -1,0 +1,1 @@
+Fold 1 (Train: 227 | Val: 222) -> Val MSE : LSTM = 0.01930 | GRU = 0.00351

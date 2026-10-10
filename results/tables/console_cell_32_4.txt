@@ -1,0 +1,1 @@
+Fold 3 (Train: 671 | Val: 222) -> Val MSE : LSTM = 0.00107 | GRU = 0.00145

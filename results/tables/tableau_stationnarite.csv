@@ -1,0 +1,5 @@
+"Variable","ADF_stat","ADF_p_value","KPSS_stat","KPSS_p_value","Conclusion"
+"KO_Close",-1.5661,0.50061,5.308,0.01,"Non stationnaire"
+"PEP_Close",-1.6485,0.4578,5.9186,0.01,"Non stationnaire"
+"KO_Return",-11.2606,1.6256e-20,0.0263,0.1,"Stationnaire"
+"PEP_Return",-10.9847,7.3081e-20,0.0781,0.1,"Stationnaire"

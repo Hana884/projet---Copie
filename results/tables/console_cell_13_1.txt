@@ -1,0 +1,6 @@
+=== RÉSULTATS COMPARATIFS DES TESTS DE STATIONNARITÉ ===
+              Variable  ADF Stat  ADF p-val                 ADF Décision (5%)  KPSS Stat KPSS p-val            KPSS Décision (5%)     Conclusion Finale
+ KO_Close (Cours brut)   -1.5661 5.0061e-01 Échec Rejet H0 (Non-Stationnaire)     5.3080     0.0100   Rejet H0 (Non-Stationnaire) Non-Stationnaire I(1)
+PEP_Close (Cours brut)   -1.6485 4.5780e-01 Échec Rejet H0 (Non-Stationnaire)     5.9186     0.0100   Rejet H0 (Non-Stationnaire) Non-Stationnaire I(1)
+ KO_Return (Rendement)  -11.2606 1.6256e-20           Rejet H0 (Stationnaire)     0.0263     0.1000 Échec Rejet H0 (Stationnaire)     Stationnaire I(0)
+PEP_Return (Rendement)  -10.9847 7.3081e-20           Rejet H0 (Stationnaire)     0.0781     0.1000 Échec Rejet H0 (Stationnaire)     Stationnaire I(0)

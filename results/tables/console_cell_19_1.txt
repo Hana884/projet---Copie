@@ -1,0 +1,7 @@
+=== TESTS DE CAUSALITÉ DE GRANGER (Sur VAR(1) parsimonieux) ===
+Lag 1 : KO -> PEP p-value = 0.0574 (Non significatif)
+Lag 1 : PEP -> KO p-value = 0.0141 (Significatif)
+
+=== TESTS DE CAUSALITÉ DE GRANGER (Sur VAR(9) AIC) ===
+Lag 9 : KO -> PEP p-value = 0.0021 (Significatif, p < 0.01)
+Lag 9 : PEP -> KO p-value = 0.0000 (Significatif, p < 0.001)

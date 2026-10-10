@@ -1,0 +1,1 @@
+Environnement initialisé avec succès. Seed fixée à : 42

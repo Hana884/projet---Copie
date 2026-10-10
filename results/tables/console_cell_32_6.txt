@@ -1,0 +1,4 @@
+Fold 5 (Train: 1115 | Val: 222) -> Val MSE : LSTM = 0.00084 | GRU = 0.00028
+
+Score Moyen Validation Croisée LSTM : 0.00495 (+/- 0.00722)
+Score Moyen Validation Croisée GRU  : 0.00152 (+/- 0.00118)

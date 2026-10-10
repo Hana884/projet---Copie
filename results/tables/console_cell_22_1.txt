@@ -1,0 +1,6 @@
+C:\Users\ASUS\AppData\Local\R\cache\R\reticulate\uv\cache\archive-v0\42iziNkd1HN0xeU8\Lib\site-packages\statsmodels\tsa\statespace\mlemodel.py:679: EstimationWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  start_params = self.start_params
+C:\Users\ASUS\AppData\Local\R\cache\R\reticulate\uv\cache\archive-v0\42iziNkd1HN0xeU8\Lib\site-packages\statsmodels\tsa\statespace\mlemodel.py:679: EstimationWarning: Non-invertible starting MA parameters found. Using zeros as starting parameters.
+  start_params = self.start_params
+C:\Users\ASUS\AppData\Local\R\cache\R\reticulate\uv\cache\archive-v0\42iziNkd1HN0xeU8\Lib\site-packages\statsmodels\tsa\statespace\mlemodel.py:679: EstimationWarning: Non-stationary starting autoregressive parameters found. Using zeros as starting parameters.
+  start_params = self.start_params

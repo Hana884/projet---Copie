@@ -1,0 +1,8 @@
+C:\Users\ASUS\AppData\Local\R\cache\R\reticulate\uv\cache\archive-v0\42iziNkd1HN0xeU8\Lib\site-packages\statsmodels\tsa\vector_ar\vecm.py:717: ComplexWarning: Casting complex values to real discards the imaginary part
+  lr1[i] = -t * np.sum(tmp, 0)
+C:\Users\ASUS\AppData\Local\R\cache\R\reticulate\uv\cache\archive-v0\42iziNkd1HN0xeU8\Lib\site-packages\statsmodels\tsa\vector_ar\vecm.py:718: ComplexWarning: Casting complex values to real discards the imaginary part
+  lr2[i] = -t * np.log(1 - a[i])
+C:\Users\ASUS\AppData\Local\R\cache\R\reticulate\uv\cache\archive-v0\42iziNkd1HN0xeU8\Lib\site-packages\statsmodels\tsa\vector_ar\vecm.py:717: ComplexWarning: Casting complex values to real discards the imaginary part
+  lr1[i] = -t * np.sum(tmp, 0)
+C:\Users\ASUS\AppData\Local\R\cache\R\reticulate\uv\cache\archive-v0\42iziNkd1HN0xeU8\Lib\site-packages\statsmodels\tsa\vector_ar\vecm.py:718: ComplexWarning: Casting complex values to real discards the imaginary part
+  lr2[i] = -t * np.log(1 - a[i])

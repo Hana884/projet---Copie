@@ -1,0 +1,29 @@
+                     Constant Mean - GARCH Model Results                      
+==============================================================================
+Dep. Variable:              KO_Return   R-squared:                       0.000
+Mean Model:             Constant Mean   Adj. R-squared:                  0.000
+Vol Model:                      GARCH   Log-Likelihood:               -2088.71
+Distribution:                  Normal   AIC:                           4185.42
+Method:            Maximum Likelihood   BIC:                           4206.27
+                                        No. Observations:                 1357
+Date:                Fri, Oct 09 2026   Df Residuals:                     1356
+Time:                        23:15:16   Df Model:                            1
+                                 Mean Model                                
+===========================================================================
+                 coef    std err          t      P>|t|     95.0% Conf. Int.
+---------------------------------------------------------------------------
+mu             0.0480  3.547e-02      1.353      0.176 [-2.152e-02,  0.118]
+                              Volatility Model                             
+===========================================================================
+                 coef    std err          t      P>|t|     95.0% Conf. Int.
+---------------------------------------------------------------------------
+omega          0.0436  4.922e-02      0.887      0.375 [-5.283e-02,  0.140]
+alpha[1]       0.0546  3.835e-02      1.424      0.154 [-2.055e-02,  0.130]
+beta[1]        0.9137  7.156e-02     12.769  2.432e-37    [  0.773,  1.054]
+===========================================================================
+
+Covariance estimator: robust
+
+=== DIAGNOSTIC POST-GARCH SUR RÉSIDUS STANDARDISÉS ===
+Test ARCH-LM post-GARCH : Statistique = 2.5100, p-value = 0.9907
+Décision : HOMOSCÉDASTICITÉ RESTAURÉE (Effets ARCH éliminés)
